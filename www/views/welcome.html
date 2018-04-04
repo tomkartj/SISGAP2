@@ -1,0 +1,36 @@
+<ion-view class="welcome-view" cache-view="false">
+  <ion-content scroll="true">
+  <div class="bar bar-header bar-positive">
+  <h1 class="title white">Sistema de Gestion de Alumbrado Publico</h1>
+</div>
+<ion-slide-box>
+   <ion-slide>
+      <div class="box box3">
+
+        <img src="img/logot2.png">
+        <p class="titulo">Comencemos a continuación tendrás que ingresar usuario y contraseña:  </p>
+        <p class="parrafo">
+            
+          </p>
+    <form ng-submit="doLogin()">
+  
+    <label class="item item-input">
+      <span class="input-label">Usuario:</span>
+      <input type="text"  ng-model="loginData.username">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Contraseña:</span>
+      <input type="password" ng-model="loginData.password">
+    </label>
+    <label class="item ">
+      <button class="button button-block button-positive" type="submit">Iniciar</button>
+    </label>
+  </div>
+</form>
+      </div>
+      <br><br>
+      </div>
+   </ion-slide>
+</ion-slide-box>
+  </ion-content>
+</ion-view>

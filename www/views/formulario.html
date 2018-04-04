@@ -1,0 +1,47 @@
+<ion-view class="formulario-view">
+  <ion-nav-title class="title cabezera" >
+    <span class="white">Tijuana T-Atiende</span>
+  </ion-nav-title>
+
+<ion-content class="backapp">
+        <div style="margin-bottom: 2%;">
+            <p class="parrafo">Por favor a continuación llene este breve formulario para darle mejor seguimiento al problema:</p>        
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre(s)" required>  
+        </div>
+        <div style="margin-bottom: 2%;">      
+            <input type="text" id="Paterno" name="Paterno" placeholder="Apellido Paterno" required>  
+        </div>
+        <div style="margin-bottom: 2%;">   
+            <input type="text" id="Materno" name="Materno" placeholder="Apellido Materno" required>  
+        </div>
+        <div style="margin-bottom: 2%;">
+        <select id="sexo" class="selectpicker">
+          <option value="Hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>
+        </select>
+        </div>
+        <div style="margin-bottom: 2%;"> 
+        <p class="parrafo">Fecha de nacimiento</p>      
+            <input type="date" id="Edad" name="Edad">  
+        </div>
+        <div style="margin-bottom: 2%;">   
+            <input type="text" id="Correo" name="Correo" placeholder="Correo" required>  
+        </div>
+        <div style="margin-bottom: 2%;">      
+            <input type="number" id="NumeroTel" name="NumeroTel" placeholder="Numero Telefonico..." required>  
+        </div>
+        <div style="margin-bottom: 2%;">   
+            <input type="text" id="Colonia" name="Colonia" placeholder="Colonia" required>  
+        </div>
+        <div style="margin-bottom: 2%;">   
+            <input type="text" id="Calle" name="Calle" placeholder="Calle" required>  
+        </div>
+        <div style="margin-bottom: 2%;">   
+            <input type="text" id="NoCasa" name="NoCasa" placeholder="Numero de Casa" required>  
+        </div>
+        <div ng-click="saveform()">
+            <input type="button" class="botonfoto centrar" id="submitButton"  name="submitButton" value="Continuar">
+        </div>
+ 
+</ion-content>             
+</ion-view>

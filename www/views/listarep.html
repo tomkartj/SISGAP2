@@ -1,0 +1,19 @@
+<ion-view class="listarep-view">
+  <ion-nav-title class="title" >
+    <span class="white">SISGAP Reportes</span>
+  </ion-nav-title>
+
+<ion-content class="backapp">
+
+ <div class="list" ng-repeat="x in names">
+   <div class="item item-divider contenido white">No.Reporte: {{x.id_reporte}}</div>
+   <div class="item"><span style="font-weight: 900;">Fecha:</span> {{x.fecha}}</div>
+   <div class="item"><span style="font-weight: 900;">Tipo de Reporte:</span> {{x.tipo_reporte}}</div>
+   <div class="item"><span style="font-weight: 900;">Nombre Reportante:</span> {{x.nombrerepor}}</div>
+   <div class="item"><span style="font-weight: 900;">Estatus:</span> {{x.status}}</div>
+   <div class="item"><p><span style="font-weight: 900;">Nota:</span> {{x.Nota}}</p></div>
+   <div ng-click="hacerQueja({{x.id_reporte}})"><button id="button" class="botonfoto centrar">Mantenimiento</button></div>
+</div>      
+ 
+</ion-content>             
+</ion-view>

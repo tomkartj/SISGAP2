@@ -1,0 +1,46 @@
+.welcome-view
+{
+	background-color: #555555;
+
+	.top-content
+  {
+    height: 66%;
+
+		.app-copy
+		{
+			text-align: center;
+			padding-top: 9vh;
+		}
+
+		.app-logo
+		{
+		}
+
+		.app-tagline
+		{
+			font-size: 14px;
+			margin-top: 0px;
+			font-weight: 500;
+			color: rgba($welcome-color, 0.95);
+		}
+
+		.lista{
+		 font-size:11px;
+		 color:#ffffff;
+		}
+	}
+
+	.bottom-content
+  {
+    height: 34%;
+
+		.facebook-sign-in
+		{
+			border-radius: 4px;
+			font-weight: 500;
+			color: $auth-small-btn-color;
+			background-color: $facebook-blue;
+			border-color: darken($facebook-blue, 2);
+		}
+	}
+}

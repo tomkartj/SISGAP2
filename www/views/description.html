@@ -1,0 +1,24 @@
+<ion-view class="description-view">
+  <ion-nav-title class="title cabezera" >
+    <span class="white">SISGAP</span>
+  </ion-nav-title>
+
+<ion-content class="backapp">
+        <div style="margin-bottom: 2%;">
+            <p class="parrafo">Por favor a continuación de una breve descripción del problema</p>        
+            <input type="text" id="descripcion" name="descripcion" placeholder="Agregar descripción...">  
+        </div>
+       <div style="margin-bottom: 2%;">
+            <p class="parrafo">Un número celular para poder dar seguimiento al problema</p>        
+            <input type="number" id="telefono" name="telefono" placeholder="Numero de telefono...">  
+        </div>
+       <div style="margin-bottom: 2%;">
+            <p class="parrafo">Correo electrónico como alternativa para dar seguimiento a su reporte</p>        
+            <input type="email" id="correo" name="correo" placeholder="Correo...">  
+        </div>
+        <div ng-click="savedesc()">
+            <input type="button" class="botonfoto centrar" id="submitButton"  name="submitButton" value="Enviar">
+        </div>
+ 
+</ion-content>             
+</ion-view>

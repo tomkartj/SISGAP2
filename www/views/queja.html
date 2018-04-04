@@ -1,0 +1,19 @@
+<ion-view class="queja-view">
+  <ion-nav-title class="title" >
+    <span class="white">Mantenimiento</span>
+  </ion-nav-title>
+
+<ion-content class="backapp">
+
+<div ng-controller="myController">
+    <combo-box options="options" combo-model="color" label="--Select a Color--" other-label="A color not on the list...">
+    </combo-box>
+    <div>Selected Color: <span ng-bind="color"></span>
+    </div>
+  </div>
+
+ 
+   <div ng-click="registQueja()"><button id="button" class="botonfoto centrar">Enviar</button></div>      
+ 
+</ion-content>             
+</ion-view>
